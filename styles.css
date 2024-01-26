@@ -1,0 +1,131 @@
+
+body, h1, p, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'CursiveFont', cursive, sans-serif;
+    padding: 1.6;
+    background-color: #E7BCDE; 
+}
+
+header {
+    background-color: #67729D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #BB9CC0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #FFB6D9;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #BB9CC0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    background-color: #67729D;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FFB6D9;
+}
+
+h3 {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  text-align: justify;
+  font-weight: bold;
+} 
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    color: #FFB6D9;
+}
+.solid {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+  border-color:  #BB9CC0;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #555;
+}
+
+img {
+background-size: cover;
+width:100%;
+}
+
+.image-container {
+    position: fixed;
+    max-width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.text-overlay h2 {
+    margin-bottom: 10px;
+}
+
+.text-overlay p {
+    margin: 0;
+}
